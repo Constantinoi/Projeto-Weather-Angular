@@ -8,9 +8,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WheatherHomeComponent } from './modules/wheater/page/wheather-home/wheather-home.component';
+import { WeatherCardComponent } from './modules/wheater/components/weather-card/weather-card.component';
 
 @NgModule({
-  declarations: [AppComponent, WheatherHomeComponent],
+  declarations: [AppComponent, WheatherHomeComponent, WeatherCardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
